@@ -14,7 +14,7 @@
         <members>Team__c</members>
         <members>Timesheet__c</members>
         <members>Timesheet_Detail__c</members>
-        <name>CustomObject</name>
+        <name>CustomObject</name>       
     </types>
 
     <types>
@@ -23,8 +23,6 @@
         <members>Contact.ContactType__c</members>
         <members>Contact.Team__c</members>
 
-        <members>Candidate_Availability__c.Id</members>
-        <members>Candidate_Availability__c.IsDeleted</members>
         <members>Candidate_Availability__c.Name</members>
         <members>Candidate_Availability__c.CreatedDate</members>
         <members>Candidate_Availability__c.CreatedById</members>
@@ -37,9 +35,6 @@
         <members>Candidate_Availability__c.End_Date__c</members>
         <members>Candidate_Availability__c.Start_Date__c</members>
 
-        <members>Course__c.Id</members>
-        <members>Course__c.OwnerId</members>
-        <members>Course__c.IsDeleted</members>
         <members>Course__c.Name</members>
         <members>Course__c.CreatedDate</members>
         <members>Course__c.CreatedById</members>
@@ -57,9 +52,6 @@
         <members>Course__c.Status__c</members>
         <members>Course__c.Type__c</members>
 
-        <members>Course_Journey__c.Id</members>
-        <members>Course_Journey__c.OwnerId</members>
-        <members>Course_Journey__c.IsDeleted</members>
         <members>Course_Journey__c.Name</members>
         <members>Course_Journey__c.CreatedDate</members>
         <members>Course_Journey__c.CreatedById</members>
@@ -75,9 +67,6 @@
         <members>Course_Journey__c.Status__c</members>
         <members>Course_Journey__c.Task__c</members>
 
-        <members>Event__c.Id</members>
-        <members>Event__c.OwnerId</members>
-        <members>Event__c.IsDeleted</members>
         <members>Event__c.Name</members>
         <members>Event__c.CreatedDate</members>
         <members>Event__c.CreatedById</members>
@@ -86,9 +75,6 @@
         <members>Event__c.SystemModstamp</members>
         <members>Event__c.UserRecordAccessId</members>
 
-        <members>Leave__c.Id</members>
-        <members>Leave__c.OwnerId</members>
-        <members>Leave__c.IsDeleted</members>
         <members>Leave__c.Name</members>
         <members>Leave__c.CreatedDate</members>
         <members>Leave__c.CreatedById</members>
@@ -106,9 +92,6 @@
         <members>Leave__c.Start_Date__c</members>
         <members>Leave__c.Status__c</members>
 
-        <members>mtp_Module__c.Id</members>
-        <members>mtp_Module__c.OwnerId</members>
-        <members>mtp_Module__c.IsDeleted</members>
         <members>mtp_Module__c.Name</members>
         <members>mtp_Module__c.CreatedDate</members>
         <members>mtp_Module__c.CreatedById</members>
@@ -118,9 +101,6 @@
         <members>mtp_Module__c.UserRecordAccessId</members>
         <members>mtp_Module__c.Index__c</members>
         
-        <members>mtp_Task__c.Id</members>
-        <members>mtp_Task__c.OwnerId</members>
-        <members>mtp_Task__c.IsDeleted</members>
         <members>mtp_Task__c.Name</members>
         <members>mtp_Task__c.CreatedDate</members>
         <members>mtp_Task__c.CreatedById</members>
@@ -129,9 +109,6 @@
         <members>mtp_Task__c.SystemModstamp</members>
         <members>mtp_Task__c.UserRecordAccessId</members>
         
-        <members>mtp_Timesheet__c.Id</members>
-        <members>mtp_Timesheet__c.OwnerId</members>
-        <members>mtp_Timesheet__c.IsDeleted</members>
         <members>mtp_Timesheet__c.Name</members>
         <members>mtp_Timesheet__c.CreatedDate</members>
         <members>mtp_Timesheet__c.CreatedById</members>
@@ -151,8 +128,6 @@
         <members>mtp_Timesheet__c.mtp_Task__c</members>
         <members>mtp_Timesheet__c.Task_Name__c</members>
 
-        <members>Task__c.Id</members>
-        <members>Task__c.IsDeleted</members>
         <members>Task__c.Name</members>
         <members>Task__c.CreatedDate</members>
         <members>Task__c.CreatedById</members>
@@ -173,9 +148,6 @@
         <members>Task__c.Task__c</members>
         <members>Task__c.Type__c</members>
 
-        <members>Team__c.Id</members>
-        <members>Team__c.OwnerId</members>
-        <members>Team__c.IsDeleted</members>
         <members>Team__c.Name</members>
         <members>Team__c.CreatedDate</members>
         <members>Team__c.CreatedById</members>
@@ -189,9 +161,6 @@
         <members>Team__c.Lead_Email__c</members>
         <members>Team__c.Lead_Name__c</members>
 
-        <members>Timesheet__c.Id</members>
-        <members>Timesheet__c.OwnerId</members>
-        <members>Timesheet__c.IsDeleted</members>
         <members>Timesheet__c.Name</members>
         <members>Timesheet__c.CreatedDate</members>
         <members>Timesheet__c.CreatedById</members>
@@ -209,8 +178,6 @@
         <members>Timesheet__c.Team__c</members>
         <members>Timesheet__c.Daily_Status__c</members>
 
-        <members>Timesheet_Detail__c.Id</members>
-        <members>Timesheet_Detail__c.IsDeleted</members>
         <members>Timesheet_Detail__c.Name</members>
         <members>Timesheet_Detail__c.CreatedDate</members>
         <members>Timesheet_Detail__c.CreatedById</members>
@@ -430,6 +397,7 @@
         <name>Profile</name>
     </types>
 
+    
     
     <version>55.0</version>
 </Package>
